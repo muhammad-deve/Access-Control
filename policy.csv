@@ -1,4 +1,8 @@
+# Policies: what roles can do
 p, admin, data1, write
+p, admin, data2, read
+p, user, data1, read
 
+# Role assignments: who belongs to which role
 g, alice, admin
-g, bob, admin
+g, bob, user
