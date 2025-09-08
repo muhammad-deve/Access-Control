@@ -7,18 +7,15 @@ import (
 )
 
 func main() {
-	// Create a new Enforcer by loading:
-	// - model.conf → defines the logic (how requests & policies are matched)
-	// - policy.csv → defines the rules (who can do what)
+	
+	// Reading the files named model.conf and policy.csv
+	// Understanding the login
 	e, err := casbin.NewEnforcer("model.conf", "policy.csv")
 	if err != nil {
 		panic(err)
 	}
 
-	// Define the request we want to check:
-	// "alice" = subject (user)
-	// "data1" = object (resource)
-	// "write" = action
+	// Checks if the alice can access the data
 	ok, err := e.Enforce("alice", "data1", "write")
 	if err != nil {
 		panic(err)
