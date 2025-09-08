@@ -75,14 +75,3 @@ It’s all about **permissions** — controlling which users are allowed to acce
       - Environment attribute: "Access time is during working hours".  
 
 ---
-
-## 📊 Comparison Table
-
-| Access Control Model | Who Decides Access? | Based On | Example Use Case |
-|----------------------|---------------------|----------|------------------|
-| **DAC** | Resource owner | User choice | File sharing, GitHub repo permissions |
-| **MAC** | Central authority | Security labels | Military & Government data |
-| **RBAC** | System admin (via roles) | User roles | Company IT systems, hospitals |
-| **ABAC** | System (dynamic policies) | Attributes (user, resource, environment) | E-commerce discounts, corporate VPNs |
-
----
