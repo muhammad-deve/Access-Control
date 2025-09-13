@@ -73,7 +73,6 @@ It’s all about **permissions** — controlling which users are allowed to acce
       - User attribute: "Role = Doctor".  
       - Resource attribute: "Assigned patient".  
       - Environment attribute: "Access time is during working hours".  
-
 ---
 
 ## 📊 Comparison Table
