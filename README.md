@@ -86,4 +86,3 @@ It’s all about **permissions** — controlling which users are allowed to acce
 | **ABAC** | System (dynamic policies) | Attributes (user, resource, environment) | E-commerce discounts, corporate VPNs |
 
 ---
-
